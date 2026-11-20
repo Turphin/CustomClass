@@ -64,7 +64,7 @@ public class MenuItem {
       String result = "";
       
       result += " - " + name + " - \n";
-      result += "
+      result += "";
       
       return result;
    }
