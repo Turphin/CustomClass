@@ -62,6 +62,14 @@ public class MenuItem {
    // lists metadata to print on the menu, returned as a string
    public String getMetadata() {
       String result = "";
+      
+      result += " - " + name + " - \n";
+      result += "
+      
       return result;
+   }
+   
+   public double netProfit() {
+      return retailCost - prodCost;
    }
 }
