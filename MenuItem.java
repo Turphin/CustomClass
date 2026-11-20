@@ -64,11 +64,12 @@ public class MenuItem {
       String result = "";
       
       result += " - " + name + " - \n";
-      result += "";
+      result += "Type: " + course + " - " + "$" + retailCost;
       
       return result;
    }
    
+   // calculates the profit made from each item sale
    public double netProfit() {
       return retailCost - prodCost;
    }
