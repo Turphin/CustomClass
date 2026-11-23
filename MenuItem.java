@@ -28,6 +28,13 @@ public class MenuItem {
       ingredients.add("Lettuce");
    }
    
+   public MenuItem (String name, double retailCost) {
+      this.name = name;
+      this.retailCost = retailCost;
+      
+      ingredients = new ArrayList<String>();
+   }
+   
    public MenuItem (String name, String course, int timeToPrep, double prodCost, double retailCost) {
       this.name = name;
       this.course = course;
